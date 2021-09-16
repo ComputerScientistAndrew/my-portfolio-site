@@ -8,7 +8,6 @@ import Footer from './Footer/Footer';
 import { PortfolioProvider } from '../context/context';
 
 import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/data';
-import { Navbar } from 'react-bootstrap';
 
 function App() {
   const [hero, setHero] = useState({});
