@@ -1,17 +1,18 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { Nav } from "react-bootstrap";
+import { Link } from "react-scroll";
 
 const NavBarComponent = () => {
     return (
         <Nav className="justify-content-end" activeKey="/home">
     <Nav.Item>
-      <Nav.Link href="#about">About Me</Nav.Link>
+      <Nav.Link><Link to="about" smooth duration={1000}>About</Link></Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link eventKey="link-1" href="#projects">My Projects</Nav.Link>
+      <Nav.Link><Link to="projects" smooth duration={1000}>Projects</Link></Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link eventKey="link-2" href="#contact">Contact</Nav.Link>
+      <Nav.Link><Link to="contact" smooth duration={1000}>Contact</Link></Nav.Link>
     </Nav.Item>
   </Nav>
     )
