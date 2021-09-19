@@ -11,14 +11,14 @@ const NavBarComponent = () => {
           <Nav.Item>
             <Nav.Link>
               <Link to="about" smooth duration={1000}>
-                About |
+                About
               </Link>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>
               <Link to="projects" smooth duration={1000}>
-                Projects |
+                Projects
               </Link>
             </Nav.Link>
           </Nav.Item>
